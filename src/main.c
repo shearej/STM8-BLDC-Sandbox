@@ -40,7 +40,6 @@ void sendData(struct mem_data *);
 
 struct data
 {
-    uint8_t SOF;
     uint16_t Commutation_Period;
     uint16_t Duty_Cycle;
     uint16_t Vsystem;
@@ -71,7 +70,7 @@ void main(void)
   while (1)
   {			
 			sendData(memptr);
-			memptr -> Commutation_Period++;
+			memData1.Commutation_Period++;
   }
 }
 
@@ -83,6 +82,9 @@ void sendData(struct mem_data *memptr1)
 		uint8_t i;
 		uint8_t k;
 		uint16_t value;
+		uint8_t SOF;
+		
+		SOF = 0xA5;
 		
 	  ptr = &data1;
 		
@@ -90,7 +92,7 @@ void sendData(struct mem_data *memptr1)
 		
 		ptr2 = &data1.Commutation_Period; //pointer to the first index of data struct
 
-    UARTsend(data1.SOF); //start of frame message. only works for 1 byte
+    UARTsend(SOF); //start of frame message. only works for 1 byte
 
     for(i = 0; i < sizeof(data1); i++) //index through struct
 		{
@@ -108,7 +110,6 @@ void sendData(struct mem_data *memptr1)
 
 void getData(struct data *ptr, struct mem_data *memptr)
 {
-    ptr -> SOF = 0xA5;
 		ptr -> Commutation_Period = memptr -> Commutation_Period;
 		ptr -> Duty_Cycle = memptr -> Duty_Cycle;
 		ptr -> Vsystem = memptr -> Vsystem;
