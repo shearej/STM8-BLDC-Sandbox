@@ -36,7 +36,7 @@ void innit_data(struct mem_data *);
 void getData(struct data *, struct mem_data *);
 
 void UARTsend(uint8_t);
-void sendData(struct mem_data *);
+void sendData(struct mem_data *, uint8_t size);
 
 struct data
 {
@@ -69,41 +69,32 @@ void main(void)
 /* Infinite loop */
   while (1)
   {			
-			sendData(memptr);
+			sendData(memptr, 14);
 			memData1.Commutation_Period++;
   }
 }
 
-void sendData(struct mem_data *memptr1)
+void sendData(struct mem_data *memptr, uint8_t size)
 {
     struct data *ptr, data1; //create data struct to send over UART
-		uint16_t *ptr2;
-
+		
+		uint8_t *ptr2;
 		uint8_t i;
-		uint8_t k;
-		uint16_t value;
 		uint8_t SOF;
 		
 		SOF = 0xA5;
 		
 	  ptr = &data1;
+		ptr2 = (uint8_t *)&data1;
 		
-    getData(ptr, memptr1); //fill data struct with motor data
-		
-		ptr2 = &data1.Commutation_Period; //pointer to the first index of data struct
+    getData(ptr, memptr); //fill data struct with motor data
 
-    UARTsend(SOF); //start of frame message. only works for 1 byte
+    UARTsend(SOF); //start of frame message
 
-    for(i = 0; i < sizeof(data1); i++) //index through struct
+    for(i=0; i < size; i++)
 		{
-			for(k = 0; k < sizeof(*ptr2); k++) // multi-byte message sending
-			{
-				value = (*ptr2);
-				value >>= (8 *k);
-				value &= 0xFF;
-				UARTsend(value); 
-			}
-			ptr2++;
+		    UARTsend((*ptr2));
+		    ptr2++;
 		}
 		
 }
