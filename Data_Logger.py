@@ -92,7 +92,7 @@ def load_data_buffer():
     data_key = [2,2,2,2,2,2,2]
     
     for x in data_buffer:
-        for k in range(data_key[key_index]): 
+        for k in range(data_key[key_index] - 1, -1, -1): 
             read = ord(ser.read())
             read = read << (k * 8)
             value += read
