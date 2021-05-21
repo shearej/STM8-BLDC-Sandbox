@@ -93,8 +93,7 @@ void sendData(struct mem_data *memptr, uint8_t size)
 
     for(i=0; i < size; i++)
 		{
-		    UARTsend((*ptr2));
-		    ptr2++;
+		    UARTsend(*(ptr2 + i));
 		}
 		
 }
