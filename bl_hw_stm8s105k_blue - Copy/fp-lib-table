@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BLDC_CONTROLLER)(type KiCad)(uri "$(KIPRJMOD)/BLDC_CONTROLLER.pretty")(options "")(descr ""))
+  (lib (name "Footprint Lib")(type KiCad)(uri "${KIPRJMOD}/Footprint Lib")(options "")(descr ""))
+)

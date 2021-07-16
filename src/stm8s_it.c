@@ -20,7 +20,7 @@
   */ 
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm8s.h"
+//#include "stm8s.h"
 #include "stm8s_it.h"
 #include "system.h"
 
@@ -375,6 +375,10 @@ INTERRUPT_HANDLER(I2C_IRQHandler, 19)
 
 		//UART2_ClearITPendingBit(UART2_IT_RXNE); 
 		//UART2_ClearFlag(UART2_FLAG_RXNE); 
+		
+		
+		//////////////////////////////////////////////////////////////////////////////////////////
+		
 
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.

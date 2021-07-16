@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BLDC_CONTROLLER-eagle-import)(type Legacy)(uri ${KIPRJMOD}/BLDC_CONTROLLER-eagle-import.lib)(options "")(descr ""))
+  (lib (name stm8s105k4_seq)(type Legacy)(uri ${KIPRJMOD}/stm8s105k4_seq.lib)(options "")(descr ""))
+  (lib (name stm8s105k4_func)(type Legacy)(uri ${KIPRJMOD}/stm8s105k4_func.lib)(options "")(descr ""))
+)

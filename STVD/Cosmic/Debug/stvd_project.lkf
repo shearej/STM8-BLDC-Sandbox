@@ -54,6 +54,7 @@ crtsi0.sm8
 Debug\stm8s_clk.o
 Debug\stm8s_gpio.o
 Debug\stm8s_uart2.o
+Debug\driver.o
 Debug\main.o
 Debug\stm8s_it.o
 #<END OBJECT_FILES>

@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\jshearer\Desktop\bl_hw_stm8s105k_blue - Copy\BLDC_CONTROLLER.sch</source>
+    <date>7/15/2021 11:48:23 AM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BLDC_CONTROLLER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U$3">
+      <value>IR2104S</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="JLCPCB">C2960</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="IR2104S" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>89E33A62</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C78C3FBD</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10micro</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.3</footprint>
+      <fields>
+        <field name="JLCPCB">C249759</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="C-US025-024X044" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>CD9B2B07</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>2.2micro</value>
+      <footprint>Capacitor_SMD:CP_Elec_3x5.4</footprint>
+      <fields>
+        <field name="JLCPCB">C445056</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="C-US025-024X044" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>254D735F</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C22775</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E6C7F8B8</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C22775</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>37FF1F05</tstamp>
+    </comp>
+    <comp ref="U$2">
+      <value>IR2104S</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="JLCPCB">C2960</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="IR2104S" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>87B7DF34</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0CADE672</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10micro</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.3</footprint>
+      <fields>
+        <field name="JLCPCB">C249759</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="C-US025-024X044" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E9A510AF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>2.2micro</value>
+      <footprint>Capacitor_SMD:CP_Elec_3x5.4</footprint>
+      <fields>
+        <field name="JLCPCB">C445056</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="C-US025-024X044" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>EE6675FC</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C22775</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>12AB12F6</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C22775</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>083F992A</tstamp>
+    </comp>
+    <comp ref="U$1">
+      <value>IR2104S</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="JLCPCB">C2960</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="IR2104S" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6E1B97F5</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10micro</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.3</footprint>
+      <fields>
+        <field name="JLCPCB">C249759</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="C-US025-024X044" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4A3211F2</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2.2micro</value>
+      <footprint>Capacitor_SMD:CP_Elec_3x5.4</footprint>
+      <fields>
+        <field name="JLCPCB">C445056</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="C-US025-024X044" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69C1A3E8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C22775</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>78444BE7</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C22775</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A94723DD</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>43k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C23172</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A443ACAD</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C25744</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9A2D407C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C25744</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>95BDA358</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C25744</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>21A8D89A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610077B9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61008337</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61087585</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C192316</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61145823</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C192316</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611471BD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C192316</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6116FCF2</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BDX33BG</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C152522</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C47286</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DB2986</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DE9FAF</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DF8AF3</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E08563</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E166A0</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1000</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C11702</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E25115</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCE377</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D2D2B0</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D4FB22</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D71F07</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D95E4B</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DB9C6A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>L78L05_SO8</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C81363</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L05_SO8" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61029E7B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.1 uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C271438</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6106917D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.33 uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C249777</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61069187</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM339</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lm139.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C111178</field>
+      </fields>
+      <libsource lib="Comparator2" part="LM339" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61000B20</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C69809</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611A92C4</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C72334</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611FF8E5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612013D2</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6138FAB2</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C72334</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFA26A</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C92150</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E99877</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>L78L33_SO8</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C86187</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L33_SO8" description="Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SO-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6100B475</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>.33 uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C249777</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EE337F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>.1 uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C271438</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED68BC</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>43k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C23172</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6131C070</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>43k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C23172</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132C93C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>43k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C23172</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6133D2CA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>43k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C23172</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6134DD7C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>43k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB">C23172</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6135E450</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TMCS1107A1BQDR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmcs1107.pdf?ts=1626282695687&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</datasheet>
+      <libsource lib="Comparator2" part="TMCS1107A1BQDR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61580B8D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>.1 uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C271438</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616F5B56</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BDX33BG</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C152522</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D9184</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BDX33BG</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C152522</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619ECFCB</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BDX33BG</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C152522</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A00DDC</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BDX33BG</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C152522</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A14D25</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BDX33BG</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C152522</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A28C5C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148DO35-7</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JLCPCB">C2128</field>
+      </fields>
+      <libsource lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>93886C31</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BLDC_CONTROLLER-eagle-import" part="1N4148DO35-7">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148DO35-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_CONTROLLER-eagle-import" part="C-US025-024X044">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-US025-024X044</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_CONTROLLER-eagle-import" part="IR2104S">
+      <fields>
+        <field name="Value">IR2104S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="IN" type="BiDi"/>
+        <pin num="3" name="SD" type="BiDi"/>
+        <pin num="4" name="COM" type="BiDi"/>
+        <pin num="5" name="LO" type="BiDi"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="HO" type="BiDi"/>
+        <pin num="8" name="VB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_CONTROLLER-eagle-import" part="R-US_0204_7">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0204_7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Comparator2" part="LM339">
+      <aliases>
+        <alias>LMV339</alias>
+      </aliases>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM339</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="~" type="openCol"/>
+        <pin num="3" name="VCC" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="IN1+" type="input"/>
+        <pin num="6" name="IN2-" type="input"/>
+        <pin num="7" name="+" type="input"/>
+        <pin num="8" name="-" type="input"/>
+        <pin num="9" name="IN3+" type="input"/>
+        <pin num="10" name="IN4-" type="input"/>
+        <pin num="11" name="IN4+" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="OUT4" type="input"/>
+        <pin num="14" name="OUT3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Comparator2" part="TMCS1107A1BQDR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMCS1107A1BQDR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="IN+" type="input"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="NC" type="input"/>
+        <pin num="7" name="VOUT" type="input"/>
+        <pin num="8" name="VS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MC78L05_SO8">
+      <aliases>
+        <alias>MC78L08_SO8</alias>
+        <alias>MC78L06_SO8</alias>
+        <alias>MC78L12_SO8</alias>
+        <alias>MC78L15_SO8</alias>
+        <alias>MC78L18_SO8</alias>
+        <alias>MC78L24_SO8</alias>
+        <alias>LM78L05_SO8</alias>
+        <alias>LM78L12_SO8</alias>
+        <alias>LM2931-5.0_SO8</alias>
+        <alias>L78L33_SO8</alias>
+        <alias>L78L05_SO8</alias>
+        <alias>L78L06_SO8</alias>
+        <alias>L78L08_SO8</alias>
+        <alias>L78L09_SO8</alias>
+        <alias>L78L10_SO8</alias>
+        <alias>L78L12_SO8</alias>
+        <alias>L78L15_SO8</alias>
+        <alias>L78L18_SO8</alias>
+        <alias>L78L24_SO8</alias>
+      </aliases>
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78L05_SO8</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+        <alias>VNP10N07</alias>
+        <alias>IPP060N06N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BLDC_CONTROLLER-eagle-import">
+      <uri>C:\Users\jshearer\Desktop\bl_hw_stm8s105k_blue - Copy/BLDC_CONTROLLER-eagle-import.lib</uri>
+    </library>
+    <library logical="Comparator2">
+      <uri>C:/Users/jshearer/Desktop/kicad_symbols/Comparator2.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="/AIN3">
+      <node ref="U2" pin="7"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="3" name="/Vsys5v">
+      <node ref="C3" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="4" name="/AIN1">
+      <node ref="J1" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="7" name="/AIN2">
+      <node ref="U4" pin="14"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="8" name="/AIN0">
+      <node ref="J1" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="9" name="/COMP1">
+      <node ref="R2" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="10" name="/COMP2">
+      <node ref="R3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="11" name="/COMP3">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="13" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="14" name="0">
+      <node ref="J5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U$3" pin="4"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U$2" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U$1" pin="4"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U4" pin="12"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="15" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="16" name="/Vsys5V">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="17" name="/COMP0">
+      <node ref="R1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D7-Pad1)">
+      <node ref="U$1" pin="7"/>
+      <node ref="R13" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D8-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="U$1" pin="5"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D12-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="U$2" pin="5"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D9-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U$2" pin="7"/>
+    </net>
+    <net code="24" name="Net-(D10-Pad2)">
+      <node ref="R22" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="25" name="/Vsys">
+      <node ref="J5" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="27" name="/CurrentSensor">
+      <node ref="Q5" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U$3" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U3" pin="8"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U$1" pin="1"/>
+      <node ref="U$2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="28" name="/SD_C">
+      <node ref="D3" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U$3" pin="3"/>
+    </net>
+    <net code="29" name="/SD_B">
+      <node ref="U$2" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="30" name="/Vdd3.3v">
+      <node ref="U3" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C9-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U$1" pin="6"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(C10-Pad2)">
+      <node ref="U$2" pin="6"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="J6" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="33" name="/SD_A">
+      <node ref="U$1" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="34" name="/PWM_A">
+      <node ref="J2" pin="1"/>
+      <node ref="U$1" pin="2"/>
+    </net>
+    <net code="35" name="/PWM_B">
+      <node ref="U$2" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="36" name="/PWM_C">
+      <node ref="J2" pin="3"/>
+      <node ref="U$3" pin="2"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="39" name="Net-(C9-Pad1)">
+      <node ref="U$1" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="40" name="Net-(C10-Pad1)">
+      <node ref="U$2" pin="8"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1"/>
+      <node ref="U$3" pin="5"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1"/>
+      <node ref="U$3" pin="7"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="43" name="Net-(C11-Pad2)">
+      <node ref="U$3" pin="6"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="U$3" pin="8"/>
+    </net>
+    <net code="45" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="47" name="Net-(D3-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D9-Pad2)">
+      <node ref="R21" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D7-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,82 @@
+
+(rules PCB BLDC_CONTROLLER
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2461)
+    (layer_rule Top
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule Bottom
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 150.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 37.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle Top 800.0 0.0 0.0)
+    )
+    (shape
+      (circle Bottom 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+  (class "kicad_default"
+    0 GND /CurrentSensor /Vsys5v /Vsys /Vdd3.3v "Net-(C9-Pad1)" "Net-(C9-Pad2)"
+    "Net-(C10-Pad2)" "Net-(C10-Pad1)" "Net-(C11-Pad1)" "Net-(C11-Pad2)" "/SD_A" "Net-(D1-Pad1)" "Net-(D2-Pad1)" "/SD_B"
+    "Net-(D3-Pad1)" "/SD_C" "Net-(D7-Pad2)" "Net-(D7-Pad1)" "Net-(D8-Pad1)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(D9-Pad1)"
+    "Net-(D10-Pad1)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D11-Pad1)" "Net-(D12-Pad1)" "Net-(D12-Pad2)" /AIN0 /AIN1
+    /AIN2 /AIN3 "/PWM_A" "/PWM_B" "/PWM_C" /COMP3 /COMP0 /COMP1
+    /COMP2 "Net-(U1-Pad5)" "Net-(U1-Pad4)" "Net-(U2-Pad6)" "Net-(U3-Pad4)" "Net-(U3-Pad5)" /Vsys5V "Net-(U4-Pad10)"
+    "Net-(U4-Pad11)" "Net-(U4-Pad13)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+)
